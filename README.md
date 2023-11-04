@@ -1,0 +1,2 @@
+# my-calah
+Mancalah game
