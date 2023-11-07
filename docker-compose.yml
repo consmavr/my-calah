@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  backend:
+    image: spring-boot-app:latest
+    build: back-end
+    ports:
+      - "8080:8080"
+
+  frontend:
+    image: vite-react-app:latest
+    build: front-end
+    ports:
+      - "3000:3000"
